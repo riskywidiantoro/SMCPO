@@ -4,7 +4,7 @@
 <div class="page-header">
     <div class="card">
         <div class="card-block">
-            <h5>Dashboard</h5>
+            <h5>Master Default - Area</h5>
             <div class="page-header-breadcrumb">
 
             </div>

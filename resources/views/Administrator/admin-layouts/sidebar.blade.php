@@ -22,7 +22,7 @@
                 </a>
                 <ul class="pcoded-submenu">
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.territory') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-timeout">
                                 Territory
@@ -31,7 +31,7 @@
                         </a>
                     </li>
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.district') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-idle-timeout">
                                 District
@@ -50,7 +50,7 @@
                 </a>
                 <ul class="pcoded-submenu">
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.outlet') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-timeout">Inquiry & Add
                                 Outlet
@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.outletCPO') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-idle-timeout">
                                 Outlet CPO
@@ -77,7 +77,7 @@
                 </a>
                 <ul class="pcoded-submenu">
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.consumer') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-timeout">Inquiry & Add
                                 Consumer</span>
@@ -85,7 +85,7 @@
                         </a>
                     </li>
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.consumerCPO') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-idle-timeout">Consumer
                                 CPO</span>
@@ -103,7 +103,7 @@
                 </a>
                 <ul class="pcoded-submenu">
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.pp') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-timeout">Inquiry & Add
                                 PP</span>
@@ -120,7 +120,7 @@
                 </a>
                 <ul class="pcoded-submenu">
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.salesperson') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-timeout">Inquiry & Add
                                 Salesman</span>
@@ -135,7 +135,7 @@
         <div class="pcoded-navigatio-lavel" data-i18n="nav.category.ui-element" menu-title-theme="theme5">Support</div>
         <ul class="pcoded-item pcoded-left-item">
             <li class="">
-                <a href="">
+                <a href="{{ route('admin.karyawan') }}">
                     <span class="pcoded-micon"><i class="fa fa-user"></i></span>
                     <span class="pcoded-mtext" data-i18n="nav.extra-components.main">Master Karyawan
                     </span>
@@ -153,7 +153,7 @@
                 </a>
                 <ul class="pcoded-submenu">
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.area') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-timeout">
                                 Area
@@ -162,7 +162,7 @@
                         </a>
                     </li>
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.OU') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-idle-timeout">
                                 Operating Unit
@@ -171,7 +171,7 @@
                         </a>
                     </li>
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.channel') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-idle-timeout">
                                 Channel
@@ -180,7 +180,7 @@
                         </a>
                     </li>
                     <li class=" ">
-                        <a href="#">
+                        <a href="{{ route('admin.subchannel') }}">
                             <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                             <span class="pcoded-mtext" data-i18n="nav.extra-components.session-idle-timeout">
                                 Sub Channel
