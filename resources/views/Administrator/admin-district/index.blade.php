@@ -17,50 +17,68 @@
             <div class="card">
                 <div class="card-block">
                     <div class="row">
-                        <fieldset class="col-lg-3 border p-1">
-                            <legend class="w-auto">OU(*)</legend>
-                            <div class="form-group">
-                                <select name="kabkota" id="kabkota" class="form-control form-control-sm">
-                                    <option value="" disabled selected>
-                                        Pilih Operating Unit
-                                    </option>
-                                </select>
+                        <div class="col-sm-6">
+                            <div class="form-group row">
+                                <div class="col-lg-3 col-lg-2">
+                                    <label for="userName-2" class="block">Operating Unit(*)</label>
+                                </div>
+                                <div class="col-sm-8 col-lg-8">
+                                    <select name="kabkota" id="kabkota" class="form-control form-control-sm">
+                                        <option value="" disabled selected>
+                                            Pilih Operating Unit
+                                        </option>
+                                    </select>
+                                </div>
                             </div>
-                        </fieldset>
-                        <fieldset class="col-lg-3 border p-1 ml-1">
-                            <legend class="w-auto">Coverage Responsibility</legend>
-                            <div clas="form-group">
-                                <select name="kecamatan" id="kecamatan" class="form-control form-control-sm">
-                                    <option value="" disabled selected>
-                                        Pilih Coverage Responsibility
-                                    </option>
-                                </select>
+                            <div class="form-group row">
+                                <div class="col-lg-3 col-lg-2">
+                                    <label for="userName-2" class="block">Coverage Responsibility</label>
+                                </div>
+                                <div class="col-sm-8 col-lg-8">
+                                    <select name="kabkota" id="kabkota" class="form-control form-control-sm">
+                                        <option value="" disabled selected>
+                                            Pilih Coverage Responsibility
+                                        </option>
+                                    </select>
+                                </div>
                             </div>
-                        </fieldset>
-                        <fieldset class="col-lg-3 border p-1 ml-1">
-                            <legend class="w-auto">Sub Coverage Responsibility</legend>
-                            <select name="keldes" id="keldes" class="form-control form-control-sm">
-                                <option value="" disabled selected>
-                                    Pilih Sub Coverage Responsibility
-                                </option>
-                            </select>
-                        </fieldset>
-                        <fieldset class="col-lg-2 border p-1 ml-1">
-                            <legend class="w-auto">Territory</legend>
-                            <select name="keldes" id="keldes" class="form-control form-control-sm">
-                                <option value="" disabled selected>
-                                    Pilih Territory
-                                </option>
-                            </select>
-                        </fieldset>
-                        <fieldset class="col-sm-2 col-lg-12 p-1 ml-1 mt-1">
-                            <legend class="w-auto"></legend>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group row">
+                                <div class="col-lg-3 col-lg-2">
+                                    <label for="userName-2" class="block">Sub Coverage Responsibility</label>
+                                </div>
+                                <div class="col-sm-8 col-lg-8">
+                                    <select name="kabkota" id="kabkota" class="form-control form-control-sm">
+                                        <option value="" disabled selected>
+                                            Pilih Sub Coverage Responsibility
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-3 col-lg-2">
+                                    <label for="userName-2" class="block">Territory</label>
+                                </div>
+                                <div class="col-sm-8 col-lg-8">
+                                    <select name="kabkota" id="kabkota" class="form-control form-control-sm">
+                                        <option value="" disabled selected>
+                                            Pilih Territory
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-title"></div>
+                    <div class="row">
+                        <div class="col-sm-12">
                             <div class="btn-group" role="group">
                                 <!-- <legend class="w-auto">Aksi</legend> -->
                                 <button name="submit_search" id="submit_search" class="btn btn-primary js-dynamic-enable btn-sm mr-1"><i class="fa fa-search"></i>Search</button><span></span>
                                 <button name="add_territory" id="reset_territory" class="btn btn-info js-dynamic-enable btn-sm"><i class="fa fa-plus"></i>Add</button>
                             </div>
-                        </fieldset>
+                        </div>
                     </div>
                 </div>
             </div>

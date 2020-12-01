@@ -109,10 +109,13 @@
                                     <label for="userName-2" class="block">Kode Outlet</label>
                                 </div>
                                 <div class="col-sm-8 col-lg-8">
-                                    <input id="kode_outlet" name="kode_outlet" type="text" class="required form-control">
+                                    <input id="kode_outlet" name="kode_outlet" type="text" class="required form-control form-control-sm">
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="sub-title"></div>
+                    <div class="row">
                         <div class="col-sm-12">
                             <div class="btn-group" role="group">
                                 <!-- <legend class="w-auto">Aksi</legend> -->

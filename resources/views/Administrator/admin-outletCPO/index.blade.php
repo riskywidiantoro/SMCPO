@@ -16,7 +16,7 @@
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-block">
-                    <div class="row sub-title">
+                    <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group row">
                                 <div class="col-lg-3 col-lg-2">
@@ -114,6 +114,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="sub-title"></div>
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="btn-group" role="group">
