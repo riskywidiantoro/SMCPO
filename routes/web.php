@@ -45,3 +45,16 @@ Route::prefix('Administrator')->group(function () {
         return view('error.403');
     })->name('unauthorized');
 });
+
+Route::prefix('Consumer')->group(function () {
+
+    //Route for Consumer Login - Logout
+
+    //Route for SideBar Consumer
+    Route::get('/', 'Consumer\CHomeController@index')->name('consumer.home');
+
+    //Error Page
+    Route::get('/abort-403', function () {
+        return view('error.403');
+    })->name('unauthorized');
+});
